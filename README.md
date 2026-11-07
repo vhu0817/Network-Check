@@ -2,7 +2,7 @@
 
 # open "x-apple.systempreferences:com.apple.preference.security?Privacy_AllFiles"
 
-# sudo python3 - << 'EOF'
+sudo python3 - << 'EOF'
 import plistlib, datetime
 
 path = "/Library/Preferences/com.apple.wifi.known-networks.plist"
