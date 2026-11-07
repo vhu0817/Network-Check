@@ -1,7 +1,7 @@
-# Network-Check
-
-# open "x-apple.systempreferences:com.apple.preference.security?Privacy_AllFiles"
-
+```
+open "x-apple.systempreferences:com.apple.preference.security?Privacy_AllFiles"
+```
+```
 sudo python3 - << 'EOF'
 import plistlib, datetime
 
@@ -45,3 +45,4 @@ for dt, ssid in rows:
     t_str = dt.strftime("%Y-%m-%d %H:%M:%S %z")
     print(f"{t_str:<26} | {ssid}")
 EOF
+```
